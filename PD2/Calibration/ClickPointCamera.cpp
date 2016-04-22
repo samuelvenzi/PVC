@@ -56,11 +56,9 @@ int main(int argc, char const *argv[])
 	mapx.create(frame.size(), CV_32FC1);
 	mapy.create(frame.size(), CV_32FC1);
 
-	cout <<"Marco 1"<<endl;
-	//INCONTÁVEIS PROBLEMAS ACONTECENDO NESSA PARTE AQUI DIAXO
+	//Tudo resolvido
 	initUndistortRectifyMap(intrinsics, distortion, R, intrinsics, frame.size(), CV_32FC1, mapx, mapy);
-	//PORQUE ESSA MERDA NÃO FUNCIOCA, QUE DIABOS É ARRAY R
-	cout <<"Marco 2"<<endl;
+	//Mas não sei que porras é matriz R
 
 
 	while(!click){
@@ -68,6 +66,7 @@ int main(int argc, char const *argv[])
     	imshow("My Window", frame);
 		waitKey(100);
 		remap(frame, img, mapx, mapy, CV_INTER_LINEAR, BORDER_CONSTANT, Scalar(0,0,0));
+		grid(img);
 		imshow("Undistort", img);
 		setMouseCallback("Undistort", CallBackFunc, (void*)&points);
     	if(waitKey(1) >= 0){}
