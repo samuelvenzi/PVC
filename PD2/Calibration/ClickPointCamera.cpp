@@ -32,10 +32,10 @@ void grid(Mat frame){
 
 int main(int argc, char const *argv[])
 {
-	vector<Point> points;
+	vector<Point> points, points_raw;
 	VideoCapture capture(0);
     Mat frame, distortion, intrinsics, mapx, mapy, img;
-    bool click = false;
+    bool click = false, click2 = false;
     int i, j;
 
 	namedWindow("My Window", 1);
@@ -61,27 +61,39 @@ int main(int argc, char const *argv[])
 	//Mas não sei que porras é matriz R
 
 
-	while(!click){
+	while(!click && !click2){
 		capture >> frame;
+		grid(frame);
     	imshow("My Window", frame);
 		waitKey(100);
+		capture >> frame;
 		remap(frame, img, mapx, mapy, CV_INTER_LINEAR, BORDER_CONSTANT, Scalar(0,0,0));
 		grid(img);
 		imshow("Undistort", img);
+    	setMouseCallback("My Window", CallBackFunc, (void*)&points_raw);
 		setMouseCallback("Undistort", CallBackFunc, (void*)&points);
     	if(waitKey(1) >= 0){}
-		if (points.size() == 2)
+		if (points.size() == 2 && points_raw.size() == 2)
 		{
+			line(frame, points_raw.at(0), points_raw.at(1), Scalar(255, 255, 255));
+			destroyWindow("My Window");
+			click2 = true;
 			line(frame, points.at(0), points.at(1), Scalar(255, 255, 255));
 			destroyWindow("Undistort");
-			destroyWindow("My Window");
 			click = true;
 		}
 	}
 
 	waitKey(100);
+	cout<<"Pontos da imagem Undistort:"<<endl;
 	GetDistance((void*)&points);
+	cout<<"Pontos da imagem raw:"<<endl;
+	GetDistance((void*)&points_raw);
 	while(true){
+		capture >> frame;
+		line(frame, points_raw.at(0), points_raw.at(1), Scalar(255, 255, 255));
+		grid(frame);
+		imshow("My Window",frame);
 		capture >> frame;
 		remap(frame, img, mapx, mapy, CV_INTER_LINEAR, BORDER_CONSTANT, Scalar(0,0,0));
 		line(img, points.at(0), points.at(1), Scalar(255, 255, 255));
