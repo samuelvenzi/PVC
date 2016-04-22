@@ -1,0 +1,8 @@
+Para compilar o programa .cpp:
+	Ter instalado CMake e OpenCV
+	Ter o arquivo CMakeLists.txt na pasta do arquivo fonte. (pastas diferentes para os dois códigos fontes desse experimento)
+	No terminal, na pasta do arquivo fonte executar os seguintes comandos:
+		$ cmake .
+		$ make
+O programa está compilado e pode ser executado com o comando:
+	./(nome_do_arquivo)

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/samuelvenzi/Visão Computacional/PD2/ConnectDots/connect.cpp
+opencv2/highgui/highgui.hpp
+/home/samuelvenzi/Visão Computacional/PD2/ConnectDots/opencv2/highgui/highgui.hpp
+iostream
+-
+

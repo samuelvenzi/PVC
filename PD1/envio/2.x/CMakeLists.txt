@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(pd1_cp)
+find_package (OpenCV REQUIRED)
+add_executable (pd1_cp pd1_cp.cpp)
+target_link_libraries (pd1_cp ${OpenCV_LIBS})

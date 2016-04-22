@@ -1,0 +1,1 @@
+/home/samuelvenzi/Visão Computacional/PD2/ConnectDots/CMakeFiles/connect.dir

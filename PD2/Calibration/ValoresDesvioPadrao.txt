@@ -1,0 +1,53 @@
+Parametros Distortion
+
+Param 1 {
+	Valores de entrada
+		0,270211 -3,543716 -4,361264 -2,548401 -0,268542
+	Média
+		-2,090342
+	Variância
+		3,274074
+	Desvio padrão
+		1,809440
+	Assimetria
+		0,145929
+}
+
+Param 2 {
+	Valores de entrada
+		-257,106567 105,432549 -213,187439 -163,423004 -5,423051
+	Média
+		-106,741502
+	Variância
+		1.848729e+4
+	Desvio padrão
+		135,967966
+	Assimetria
+		0,461775
+}
+
+Param 3 {
+	Valores de entrada
+		0,072292 0,061870 0,269158 0,242777 0,137468
+	Média
+		0,156713
+	Variância
+		0,007309
+	Desvio padrão
+		0,085491
+	Assimetria
+		0,191187
+}
+
+Param 4 {
+	Valores de entrada
+		-0,229332 -0,150925 -0,223207 -0,214208 -0,110942
+	Média
+		-0,185723
+	Variância
+		0,002184
+	Desvio padrão
+		0,046736
+	Assimetria
+		0,590905
+}
