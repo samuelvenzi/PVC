@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
 {
 	vector<Point> points, points_raw;
 	VideoCapture capture(0);
-    Mat frame, distortion, intrinsics, mapx, mapy, img;
+    Mat frame, mirrored,  distortion, intrinsics, mapx, mapy, img;
     bool click = false, click2 = false;
     int i, j;
 
@@ -64,17 +64,20 @@ int main(int argc, char const *argv[])
 	while(!click && !click2){
 		capture >> frame;
 		grid(frame);
+		flip(frame, frame, 1);
     	imshow("My Window", frame);
 		waitKey(100);
 		capture >> frame;
 		remap(frame, img, mapx, mapy, CV_INTER_LINEAR, BORDER_CONSTANT, Scalar(0,0,0));
 		grid(img);
+		flip(img, img, 1);
 		imshow("Undistort", img);
     	setMouseCallback("My Window", CallBackFunc, (void*)&points_raw);
 		setMouseCallback("Undistort", CallBackFunc, (void*)&points);
     	if(waitKey(1) >= 0){}
 		if (points.size() == 2 && points_raw.size() == 2)
 		{
+			flip(frame, frame, 1);
 			line(frame, points_raw.at(0), points_raw.at(1), Scalar(255, 255, 255));
 			destroyWindow("My Window");
 			click2 = true;
@@ -91,11 +94,13 @@ int main(int argc, char const *argv[])
 	GetDistance((void*)&points_raw);
 	while(true){
 		capture >> frame;
+		flip(frame, frame, 1);
 		line(frame, points_raw.at(0), points_raw.at(1), Scalar(255, 255, 255));
 		grid(frame);
 		imshow("My Window",frame);
 		capture >> frame;
 		remap(frame, img, mapx, mapy, CV_INTER_LINEAR, BORDER_CONSTANT, Scalar(0,0,0));
+		flip(img, img, 1);
 		line(img, points.at(0), points.at(1), Scalar(255, 255, 255));
 		grid(img);
 		imshow("Undistort", img);
