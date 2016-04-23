@@ -1,0 +1,73 @@
+Parametros Instrinsics
+
+Param 1{
+	Valores de entrada
+	2757,992190 2594,786130 2367,097170 1456,831670 3801,077390
+	Média
+	2595,556910
+	Variância
+	5.657109e+5
+	Desvio padrão
+	752,137550
+	Assimetria
+	0,125850
+}
+
+Param 2{
+	0.
+}
+
+Param 3{
+	Valores de entrada
+	320,248260 305,988129 369,929993 317,750763 320,796753
+	Média
+	326,942780
+	Variância
+	490,816260
+	Desvio padrão
+	22,154373
+	Assimetria
+	1,267755
+}
+
+Param 4 {
+	0.
+}
+
+Param 5{
+	Valores de entrada
+	3119,949710 2673,488040 2628,404540 1538,665770 3556,545900
+	Média
+	2703,410792
+	Variância
+	4.528993e+5
+	Desvio padrão
+	672,977928
+	Assimetria
+	-0,582275
+}
+
+Param 6{
+	Valores de entrada
+	248,458435 240,828018 242,775589 237,451294 240,046600
+	Média
+	241,911987
+	Variância
+	13,630846
+	Desvio padrão
+	3,691998
+	Assimetria
+	0,733933
+}
+
+Param 7{
+	0.
+}
+
+Param 8{
+	0.
+}
+
+Param 9{
+	1.
+}
