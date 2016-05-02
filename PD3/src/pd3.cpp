@@ -19,7 +19,6 @@ cv::Mat template_creator(cv::Mat img, int template_size, cv::Point pos){
     return templ;
 }
 
-
 int cmptemplate(cv::Mat templL, cv::Mat templR){
 	uchar *ptR, *ptL;
 	int sad;
