@@ -1,0 +1,6 @@
+Compilar digitando
+    $ make
+no diretório do arquivo Makefile
+
+Executar
+    ./opencv2

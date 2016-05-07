@@ -1,0 +1,16 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Hirschmüller}{2011}{stereopaper}
+Hirschmüller, H.  \harvardyearleft 2011\harvardyearright .
+\newblock Stereo processing by semi-global matching and mutual information.
+
+\harvarditem{{\em OpenCV Docs}}{n.d.}{docsocv}
+{\em OpenCV Docs}  \harvardyearleft n.d.\harvardyearright .
+\newline\url{http://docs.opencv.org/2.4/}
+
+\harvarditem{{\em Sum of absolute differences (SAD)}}{n.d.}{SAD_Algorithm}
+{\em Sum of absolute differences (SAD)}  \harvardyearleft n.d.\harvardyearright
+  .
+\newline\url{https://en.wikipedia.org/wiki/Sum_of_absolute_differences}
+
+\end{thebibliography}
