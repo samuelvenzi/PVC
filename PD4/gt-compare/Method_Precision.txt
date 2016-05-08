@@ -1,36 +1,36 @@
 Image number: 46
 Method Canny: 0.656572
 Method Sobel: 0.22818
-Method Laplacian: 0.22818
+Method Laplacian: 0.224709
 
 
 Image number: 140
 Method Canny: 0.447041
 Method Sobel: 0.0293692
-Method Laplacian: 0.0293692
+Method Laplacian: 0.0469254
 
 
 Image number: 208
 Method Canny: 0.430855
 Method Sobel: 0.0334969
-Method Laplacian: 0.0334969
+Method Laplacian: 0.0449982
 
 
 Image number: 212
 Method Canny: 0.430728
 Method Sobel: 0.0478289
-Method Laplacian: 0.0478289
+Method Laplacian: 0.0713448
 
 
 Image number: 217
 Method Canny: 0.418298
 Method Sobel: 0.0750701
-Method Laplacian: 0.0750701
+Method Laplacian: 0.0773696
 
 
 Image number: 221
 Method Canny: 0.733921
 Method Sobel: 0.163226
-Method Laplacian: 0.163226
+Method Laplacian: 0.171602
 
 
