@@ -1,0 +1,80 @@
+\documentclass[conference, harvard, brazil, english]{sbatex}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{ae}
+
+\begin{document}
+	\title{Projeto Demonstrativo 4 - Detecção de Bordas}
+	\date{08-05-2016}
+	\author{Samuel Venzi Lima Monteiro de Oliveira\\14/0162241}{samuel.venzi@me.com}
+	\address{SQN 208\\Brasília\\Brasil}
+		\twocolumn[
+			\maketitle
+			\selectlanguage{brazil}
+		]
+	
+	\pagenumbering{arabic}
+	
+	\section{Objetivos}
+		\paragraph{}
+		O objetivo deste projeto é entender e utilizar três técnicas de detecção de bordas (Canny, Sobel e Laplaciano), e após a detecção das bordas a partir de imagens pré-determinadas comparar com o resultado modelo de cada uma para verificar a precisão de cada método.
+	\section{Introdução}
+		\paragraph{}
+		Detecção de bordas tem uma vasta aplicação prática no mundo e é um dos precursores para as técnicas de detecção de objetos e segmentação de imagens. A aplicação vai desde a área médica até a filtros simples de editores de imagens.
+		\paragraph{}
+		No geral o processo de detecção se baseia no cálculo de taxas de variação de cor pela imagem, ou seja, uso de de derivadas. Essa técnica realça as bordas na direção do cálculo da derivada. Com os valores dessas derivadas em cada um dos pontos da imagem pode-se manipular a imagem para extrair as bordas.
+		\paragraph{}
+		Apesar de ser relativamente simples o entendimento da detecção de bordas, as condições da imagem podem atrapalhar substancialmente a técnica e produzir resultados indesejáveis. Uma imagem com muito ruído produzirá variações que poderão ser entendidas erroneamente como bordas. Então, antes da realização do processo de detecção de bordas propriamente dito, é aplicado, na maioria da vezes, um filtro de suavização gaussiano para a redução de ruído.
+		\paragraph{}
+		A técnica de Canny é bastante utilizada devido a imagem que é retornada pois ela tem baixa taxa de erro, as bordas são mais próximos das bordas reais e um único ponto de borda é retornado.
+		\paragraph{}
+		Sobel e Laplaciano por outro lado retornam uma imagem com bordas mais largas e e inclusive detectam texturas na imagem, na maioria das vezes ignorado por Canny, dependendo do parâmetro de \textit{threshold}.
+		\paragraph{}
+		O OpenCV facilita o trabalho por ter as três técnicas já implementadas, além a suavização gaussiana.
+		
+		\section{Materiais e Metodologia}
+		\subsection{Materiais}
+			\begin{itemize}
+				\item Computador com ambiente Linux (Ubuntu)
+				\item Imagens para a detecção de bordas.
+				\item OpenCV
+			\end{itemize}
+		\subsection{Metodologia}
+			\paragraph{}
+			Para aplicar as técnicas às imagens disponibilizadas, primeiro foi feita a suavização para diminuir o ruído e gerar um resultado mais confiável e a partir de funções já implementadas do OpenCV foram aplicadas às imagens as técnicas de Canny, Sobel e Laplaciano.
+			\paragraph{}
+			Após esse passo, foi desenvolvido um algoritmo que compara os pixels da imagem gerada com os pixels da imagem de referência e feita uma razão para achar a precisão para cada método.
+			\begin{centering}
+			 $ Precisao = \frac{pixels_ iguais}{pixels_ iguais + pixels_ diferentes} $ 
+			\end{centering}
+			\paragraph{}
+			O resultado acima multiplicado por 100 resulta na porcentagem de precisão.
+		\section{Resultados}
+			\paragraph{}
+			Por serem 24 imagens mostrando resultados elas estão em anexo na pasta Resultados no arquivo comprimido de envio.
+			\paragraph{}
+			A tabela a seguir relaciona a precisão calculada para cada imagem e para cada método.	
+			\begin{table}[ht]
+			\caption{precisão (porcentagem)}
+			\centering
+			\begin{tabular}{c c c c c c c}
+				método & 46 & 140 & 208 & 212 &	217 & 221\\
+				\hline\hline
+				Canny & 65.6 & 44.7 & 43.0 & 43.0 & 41.8 & 73.3\\
+				Sobel & 22.8 & 02.9 & 03.3 & 04.7 & 07.51 & 16.3\\
+				Laplacian &	22.4 & 04.6 & 04.4 & 07.1 & 07.7 & 17.1\\
+			\end{tabular}
+			\end{table}
+		\section{Discussão e Conclusões}
+			\paragraph{}
+			Nas imagens dos resultados em anexo é possível observar o esperado pela teoria estudada. Para todas as imagens os resultados foram compatíveis e nelas é possível observar a precisão já citada do método de Canny e as bordas mais largas dos métodos de Sobel e Laplaciano.
+			\paragraph{}
+			Com relação à precisão dos métodos, pela Tabela 1, é possível verificar sem dúvida nenhuma que o método mais preciso é o método de Canny, enquanto Sobel e Laplaciano apresentam valores muito parecidos. Resultado esperado, já que Canny retorna um único valor de borda, o que gera uma borda fina e próxima da real coincidente com a imagem referência.
+			
+		\bibliography{relatorio}
+
+
+\end{document}

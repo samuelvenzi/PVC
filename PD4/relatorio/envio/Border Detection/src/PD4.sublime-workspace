@@ -1,0 +1,735 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ab",
+				"abs_dst"
+			],
+			[
+				"a",
+				"abs_dst"
+			],
+			[
+				"co",
+				"convertScaleAbs"
+			],
+			[
+				"grad",
+				"grad_x"
+			],
+			[
+				"dept",
+				"depth_norm"
+			],
+			[
+				"sad",
+				"sadList"
+			],
+			[
+				"sa",
+				"sadList"
+			],
+			[
+				"depth",
+				"depth_norm"
+			],
+			[
+				"dep",
+				"depth_norm"
+			],
+			[
+				"norma",
+				"normalized_depth"
+			],
+			[
+				"I",
+				"INT_MAX"
+			],
+			[
+				"no",
+				"norm_depth_map"
+			],
+			[
+				"gra",
+				"greatest_Z"
+			],
+			[
+				"Z",
+				"greatest_Z"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"tem",
+				"template_size"
+			],
+			[
+				"de",
+				"depth_map"
+			],
+			[
+				"X",
+				"XL"
+			],
+			[
+				"s",
+				"sad"
+			],
+			[
+				"c",
+				"cin"
+			],
+			[
+				"templ",
+				"templL"
+			],
+			[
+				"temp",
+				"templ"
+			],
+			[
+				"pnt",
+				"pntR"
+			],
+			[
+				"img",
+				"imgL"
+			],
+			[
+				"d",
+				"depth_map"
+			],
+			[
+				"w",
+				"w_size"
+			],
+			[
+				"dis",
+				"distance"
+			],
+			[
+				"pin",
+				"points_raw"
+			],
+			[
+				"CV_",
+				"CV_32FC1"
+			],
+			[
+				"int",
+				"intrinsics"
+			],
+			[
+				"fs",
+				"fs_intr"
+			],
+			[
+				"po",
+				"points"
+			],
+			[
+				"poi",
+				"Point"
+			],
+			[
+				"My",
+				"MyLine"
+			],
+			[
+				"pt",
+				"pt"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"reut",
+				"returned_score"
+			],
+			[
+				"retur",
+				"returned_score"
+			],
+			[
+				"in",
+				"insert_element"
+			],
+			[
+				"rando",
+				"random_space"
+			],
+			[
+				"play",
+				"play_four"
+			],
+			[
+				"ran",
+				"random_cell"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"ram",
+				"random_cell"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"stt",
+				"settings"
+			],
+			[
+				"setting",
+				"settings_option"
+			],
+			[
+				"me",
+				"menu"
+			],
+			[
+				"menu",
+				"menu_option"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"sq",
+				"square"
+			],
+			[
+				"va",
+				"value_to_discount"
+			],
+			[
+				"b",
+				"banknotes_coins"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"ic",
+				"include"
+			],
+			[
+				"arg",
+				"argc"
+			],
+			[
+				"ar",
+				"argv"
+			],
+			[
+				"ne",
+				"negativo"
+			],
+			[
+				"diagon",
+				"diagonal2"
+			],
+			[
+				"di",
+				"diagonal1"
+			],
+			[
+				"lo",
+				"local_pessoa_b"
+			],
+			[
+				"au",
+				"aux_b"
+			],
+			[
+				"local",
+				"local_pessoa_a"
+			],
+			[
+				"local_",
+				"local_pessoa_a"
+			],
+			[
+				"loca",
+				"local_pessoa_b"
+			],
+			[
+				"loc",
+				"local_pessoa_a"
+			],
+			[
+				"ma",
+				"main	main()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "border.cpp",
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pd4.cpp",
+			"settings":
+			{
+				"buffer_size": 1766,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/samuelvenzi/PVC/PD4/include/pd4.hpp",
+			"settings":
+			{
+				"buffer_size": 338,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/samuelvenzi/PVC/PD4/Makefile",
+		"/home/samuelvenzi/PVC/PD3/src/CoordinatesRelation.cpp",
+		"/home/samuelvenzi/PVC/PD3/src/pd3.cpp",
+		"/home/samuelvenzi/PVC/PD3/envio/envio/diretrizes.txt",
+		"/home/samuelvenzi/PVC/PD3/relatorio.bbl",
+		"/home/samuelvenzi/PVC/TemplatesLatex/exemplo.bib",
+		"/home/samuelvenzi/PVC/TemplatesLatex/cba_esq.log",
+		"/home/samuelvenzi/.cache/.fr-s7Bbx4/opencvbasics/ex02.c",
+		"/home/samuelvenzi/.cache/.fr-AAUvvi/opencvbasics/ex01.c",
+		"/home/samuelvenzi/PVC/PD1/2.x/pd1_cp.cpp",
+		"/home/samuelvenzi/PVC/TemplatesLatex/cba_esq.aux",
+		"/home/samuelvenzi/PVC/PD3/include/pd3.hpp",
+		"/home/samuelvenzi/Documentos/Quartus/setup.sh",
+		"/home/samuelvenzi/PVC/PD3/harvard.bst",
+		"/home/samuelvenzi/PVC/PD3/sbatex.cls",
+		"/home/samuelvenzi/PVC/PD3/harvard.sty",
+		"/home/samuelvenzi/ErekoBot/tests/serial_bee.py",
+		"/home/samuelvenzi/Dropbox/Grupo ErekoBot/Projeto Sigma Lily/Xbee/Nota sobre Xbee (fixed).txt",
+		"/home/samuelvenzi/Downloads/cropper.cpp",
+		"/home/samuelvenzi/depthmap.cpp",
+		"/home/samuelvenzi/Documentos/EREKO Programming/presentation_communication.txt",
+		"/home/samuelvenzi/PVC/PD3/Makefile",
+		"/home/samuelvenzi/PVC/PD3/src/depthmap.cpp",
+		"/home/samuelvenzi/.local/share/Trash/files/depthmap.cpp",
+		"/home/samuelvenzi/.local/share/Trash/files/disparity.cpp",
+		"/home/samuelvenzi/.local/share/Trash/files/CoordRelation.cpp",
+		"/home/samuelvenzi/PVC/PD3/CoordinatesRelation.cpp",
+		"/home/samuelvenzi/PVC/PD3/pd3.h",
+		"/home/samuelvenzi/PVC/PD3/depthmap.cpp",
+		"/home/samuelvenzi/Downloads/Deep Sites.txt",
+		"/home/samuelvenzi/PVC/PD3/disparity.cpp",
+		"/home/samuelvenzi/PVC/PD2/ConnectDots/connect.cpp",
+		"/home/samuelvenzi/PVC/PD2/Calibration/ClickPointCamera.cpp",
+		"/home/samuelvenzi/.config/sublime-text-3/Packages/User/opencv.sublime-build",
+		"/home/samuelvenzi/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/samuelvenzi/PVC/PD3/build_all.sh",
+		"/home/samuelvenzi/PVC/PD2/ObjectMeasure/SizeMean.txt",
+		"/home/samuelvenzi/PVC/PD2/Calibration/Parametros Instrinsics.txt",
+		"/home/samuelvenzi/PVC/PD2/Calibration/Parametros Distortion - tent2",
+		"/home/samuelvenzi/PVC/PD1/relatorio.tex",
+		"/home/samuelvenzi/PVC/PD2/relatorio.tex",
+		"/home/samuelvenzi/PVC/PD2/Calibration/Distortion.xml",
+		"/home/samuelvenzi/PVC/PD1/envio/diretrizes.txt",
+		"/home/samuelvenzi/PVC/PD2/Calibration/camera_calibration.cpp",
+		"/home/samuelvenzi/PVC/PD2/ObjectMeasure/ObjectMeasure.cpp",
+		"/home/samuelvenzi/PVC/PD2/ObjectMeasure/SizeObject.txt",
+		"/home/samuelvenzi/PVC/PD2/ObjectMeasure/ClickPointCamera.cpp",
+		"/home/samuelvenzi/PVC/PD2/Calibration/Intrinsics.xml",
+		"/home/samuelvenzi/Visão Computacional/PD2/aula-calibracao/build_all.sh",
+		"/home/samuelvenzi/Visão Computacional/PD2/aula-calibracao/camera_calibration.cpp",
+		"/home/samuelvenzi/IMUDataRecover/IMUDataRecover.ino",
+		"/home/samuelvenzi/sketch_apr11a/sketch_apr11a.ino",
+		"/home/samuelvenzi/Visão Computacional/PD2/aula-calibracao/ClickPointCamera.cpp",
+		"/home/samuelvenzi/Visão Computacional/PD2/ConnectDots/connect.cpp",
+		"/home/samuelvenzi/Visão Computacional/PD1/pd1_cp.cpp",
+		"/home/samuelvenzi/Visão Computacional/ex02.cpp",
+		"/home/samuelvenzi/Visão Computacional/ex01.cpp",
+		"/home/samuelvenzi/Visão Computacional/DisplayImage.cpp",
+		"/home/samuelvenzi/Visão Computacional/PD2/aula-calibracao/Parametros Distortion - tent2",
+		"/home/samuelvenzi/Visão Computacional/PD2/aula-calibracao/ValoresDesvioPadrao.txt",
+		"/home/samuelvenzi/Visão Computacional/PD2/aula-calibracao/Distortion.xml",
+		"/home/samuelvenzi/Visão Computacional/PD2/CMakeLists.txt",
+		"/home/samuelvenzi/Visão Computacional/PD2/connect.cpp",
+		"/home/samuelvenzi/Visão Computacional/PD2/getmouseclick.cpp",
+		"/home/samuelvenzi/Visão Computacional/PVC-master/PD_2/PointDistance/include/PointClickDistance.hpp",
+		"/home/samuelvenzi/Visão Computacional/PVC-master/PD_2/PointDistance/src/PointClickDistance.cpp",
+		"/home/samuelvenzi/Visão Computacional/PVC-master/PD_2/PointDistance/src/Main.cpp",
+		"/home/samuelvenzi/Visão Computacional/CMakeLists.txt",
+		"/home/samuelvenzi/ErekoBot/communication/MainApp.java",
+		"/home/samuelvenzi/ErekoBot/communication/readme.txt",
+		"/home/samuelvenzi/ErekoBot/modules/Modulo_1_motor_xbee/Modulo_1_motor_xbee.ino",
+		"/home/samuelvenzi/ErekoBot/communication/XbeeInterface.java",
+		"/home/samuelvenzi/ErekoBot/communication/XbeeMain.java",
+		"/home/samuelvenzi/ErekoBot/communication/XbeeTeste.java",
+		"/home/samuelvenzi/ErekoBot/communication/profile_1.c",
+		"/home/samuelvenzi/ErekoBot/comunication/profile_1.py",
+		"/home/samuelvenzi/Documentos/Machine Learning/Assignment 2.ipynb",
+		"/home/samuelvenzi/Documentos/Machine Learning/tst.py",
+		"/home/samuelvenzi/ErekoBot/tests/imu_file.py",
+		"/home/samuelvenzi/ErekoBot/tests/motor.ino",
+		"/home/samuelvenzi/ErekoBot/tests/motor/motor.ino",
+		"/home/samuelvenzi/ErekoBot/examples/IMU_Example/IMU_Example.ino",
+		"/home/samuelvenzi/ErekoBot/tests/imu_data.txt",
+		"/home/samuelvenzi/Visão Computacional/PD1/1.x/pd1_c.cpp",
+		"/home/samuelvenzi/Visão Computacional/PD1/envio/diretrizes.txt",
+		"/home/samuelvenzi/Visão Computacional/PD1/relatorio.tex",
+		"/home/samuelvenzi/Visão Computacional/PD1/pd1_c",
+		"/home/samuelvenzi/Visão Computacional/PD1/1.x/CMakeLists.txt",
+		"/home/samuelvenzi/Visão Computacional/PD1/pd1_c.cpp",
+		"/home/samuelvenzi/Visão Computacional/ex03.cpp",
+		"/home/samuelvenzi/ex01.cpp",
+		"/home/samuelvenzi/ex03.cpp",
+		"/home/samuelvenzi/ex02.cpp",
+		"/home/samuelvenzi/opencv.pc",
+		"/home/samuelvenzi/opencv_install.sh",
+		"/home/samuelvenzi/build_all.sh",
+		"/home/samuelvenzi/opencv.sh",
+		"/home/samuelvenzi/imu_file.py",
+		"/home/samuelvenzi/imu_data.txt",
+		"/home/samuelvenzi/DisplayImage.cpp",
+		"/home/samuelvenzi/CMakeLists.txt",
+		"/home/samuelvenzi/opencv_latest.sh",
+		"/home/samuelvenzi/Documentos/to_bits.c",
+		"/home/samuelvenzi/Documentos/CB/qualeamusica3.c",
+		"/home/samuelvenzi/ErekoBot/tests/IMU/6DOF/sixDOF_Example_with_IR_conditional/sixDOF_Example_with_IR_conditional.ino",
+		"/home/samuelvenzi/ErekoBot/tests/test_using_ir_servo/test_using_ir_servo.ino",
+		"/home/samuelvenzi/Documentos/EREKO Programming/Códigos atuais 10-dez/Modulos_Extras_motor_xbee.ino",
+		"/home/samuelvenzi/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/samuelvenzi/ErekoBot/tests/IMU/6DOF/FreeSixIMU/FIMU_ITG3200.cpp",
+		"/home/samuelvenzi/ErekoBot/tests/IMU/6DOF/FreeSixIMU/FIMU_ADXL345.cpp",
+		"/home/samuelvenzi/ErekoBot/tests/IMU/6DOF/FreeSixIMU/FreeSixIMU.cpp",
+		"/home/samuelvenzi/Downloads/150134291.c",
+		"/home/samuelvenzi/Downloads/150134363.c",
+		"/home/samuelvenzi/Downloads/correcao3/150144890.c",
+		"/home/samuelvenzi/ErekoBot/tests/IMU/6DOF/Processing_Example/Arduino/FreeSix_cube.ino",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424090_assignsubmission_file_150146582.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424085_assignsubmission_file_150144890.c",
+		"/home/samuelvenzi/Downloads/150134291 (1).c",
+		"/home/samuelvenzi/Downloads/150146582.c",
+		"/home/samuelvenzi/Downloads/150145357.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424059_assignsubmission_file_150128541.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424063_assignsubmission_file_150126956.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424068_assignsubmission_file_150150229.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424070_assignsubmission_file_150124970.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424075_assignsubmission_file_150119399.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424077_assignsubmission_file_150122969.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424087_assignsubmission_file_150152655.c",
+		"/home/samuelvenzi/Downloads/CIC-APC-Ordenação--122509/Participante_424092_assignsubmission_file_150145683.c"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"../",
+			", CV_IMWRITE_JPEG_QUALITY, 100",
+			"x",
+			"j",
+			"i",
+			"y",
+			"i",
+			"Z",
+			"i",
+			"direto",
+			"sbm",
+			"Pontos da imagem raw:",
+			"Pontos da imagem Undistort:",
+			"Distância entre os pontos é: ",
+			"bool",
+			"28",
+			"30",
+			"clickedpoi",
+			"pt",
+			"getmouseclick",
+			"ex02",
+			"_",
+			"±",
+			"0.0174532890",
+			"string",
+			"2048",
+			"vetor",
+			"searcher",
+			"tamanho",
+			"for",
+			"intro",
+			"total_value/banknotes_coins[counter]",
+			"a",
+			"a mark all"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "border.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pd4.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1764,
+								1764
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": -0.0,
+						"translation.y": 498.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/samuelvenzi/PVC/PD4/include/pd4.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/opencv.sublime-build",
+	"project": "PD4.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

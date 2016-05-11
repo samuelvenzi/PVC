@@ -1,0 +1,22 @@
+\begin{thebibliography}{xx}
+
+
+\harvarditem{{\em Sobel derivatives}}{n.d.}{sobel}
+{\em Sobel derivatives}  \harvardyearleft n.d.\harvardyearright .
+\newline\url{http://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/sobel_derivatives/sobel_derivatives.html}
+
+\harvarditem{{\em Canny Edge Detection}}{n.d.}{canny}
+{\em Canny Edge Detection}  \harvardyearleft n.d.\harvardyearright .
+\newline\url{http://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/canny_detector/canny_detector.html}
+
+\harvarditem{{\em Laplace Operator}}{n.d.}{Laplace}
+{\em Laplace Operator}  \harvardyearleft n.d.\harvardyearright
+  .
+\newline\url{http://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/laplace_operator/laplace_operator.html}
+
+\harvarditem{{\em Edge Detection}}{n.d.}{edge}
+{\em Edge Detection}  \harvardyearleft n.d.\harvardyearright .
+\newline\url{https://en.wikipedia.org/wiki/Edge_detection}
+
+
+\end{thebibliography}

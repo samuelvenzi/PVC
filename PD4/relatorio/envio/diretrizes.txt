@@ -1,0 +1,2 @@
+Em ambiente Linux, para compilar, digite 'make' no diretório de Makefile.
+Dois programas foram feitos 'Border' e 'GT Compare', a compilação deve ser feita para cada um com seu respectivo Makefile.
