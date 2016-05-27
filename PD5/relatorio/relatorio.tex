@@ -1,0 +1,59 @@
+\documentclass[conference, harvard, brazil, english]{sbatex}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{ae}
+
+\begin{document}
+	\title{Projeto Demonstrativo 5 - Obtenção da matrix GLCM}
+	\date{18-05-2016}
+	\author{Samuel Venzi Lima Monteiro de Oliveira\\14/0162241}{samuel.venzi@me.com}
+	\address{SQN 208\\Brasília\\Brasil}
+		\twocolumn[
+			\maketitle
+			\selectlanguage{brazil}
+		]
+	
+	\pagenumbering{arabic}
+	
+	\section{Objetivos}
+		\paragraph{}
+		O objetivo deste experimento é realizar e a aplicação de técnicas para a extração da matriz GLCM \textit{(Gray-Level Coocurrance Matrix)} a partir de uma imagem qualquer.
+		
+	\section{Introdução}
+		\paragraph{}
+		A matriz GLCM tem como principal aplicação a análise de texturas de uma imagem, sua vantagem em relação aos outros métodos é que a matriz resultante, independentemente do tamanho da imagem de entrada, tem um tamanho fixo de 256$\times$256. 
+		\paragraph{}
+		Textura é um padrão macroscópico que se repete, caracterizando uma região de maneira específica. A matriz GLCM armazena a contagem de padrões específicos no domínio da imagem.
+		\paragraph{}
+		A estrutura de uma matriz GLCM é definida pela frequência que um par de intensidade (i,j) aparece na imagem em uma direção e módulo definidos. Isso permite que descritores de textura sejam definidos em várias direções da imagem de entrada.
+		\paragraph{}
+		Neste relatório, para duas imagens distintas, duas matrizes GLCM foram construídas. Uma que avalia pares com ângulo $0º$ positivo e $45º$ positivos. 
+	
+	
+	\section{Materiais e Metodologia}
+		\subsection{Materiais}
+			\begin{itemize}
+				\item Computador com ambiente Linux (Ubuntu)
+				\item Imagens para obtenção da GLCM.
+				\item OpenCV
+			\end{itemize}
+		\subsection{Metodologia}
+			\paragraph{}
+			Para extrair matriz de coocorrência basta percorrer o domínio da imagem recuperando o valor do pixel de referência e seu respectivo par dados a direção e o módulo. Com esses valores (de 0 a 255), basta criar uma matriz 256$\times$256 para realizar a contagem. Por exemplo, caso os valores retornados sejam $i = 5$ e $j = 167$, o valor da posição da matriz de coocorrência (i,j) será somado 1. Ao final, é comum se normalizar a matriz para que seja possível trabalhar com probabilidades de certos padrões aparecerem. Então, salva-se a matriz em .xml.
+			\paragraph{}
+			Neste experimento foi feita a extração da GLCM com direção $0º$ e \textit{offset} de 1 \textit{pixel} e com direção $45º$ e \textit{offset} também de 1 \textit{pixel}.
+			
+		\section{Resultados}
+			\paragraph{}
+			Os resultados estão nos arquivos em anexo, visto que a matriz é grande demais para ser apresentada neste relatório.
+		\section{Discussão e Conclusões}
+			\paragraph{}
+			Os resultados mostram-se coerentes, porém é inviável analisar cada elemento da matriz para ter certeza de que os cálculos foram feitos de forma correta.
+			
+		\bibliography{relatorio}
+
+
+\end{document}

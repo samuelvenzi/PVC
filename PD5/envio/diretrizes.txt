@@ -1,0 +1,3 @@
+Compilar usando o arquivo build_all.sh
+    Basta, no terminal, no diretório do arquivo fonte ter o arquivo build_all.sh e digitar:
+    $ sh build_all.sh
