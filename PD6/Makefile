@@ -21,7 +21,7 @@ HEADERS_SRC = $(wildcard $(INC_DIR)/*.hpp)
 OBJ = $(C_OBJ)
 
 # Executable kernel file
-EXEC = pd6
+EXEC = pd6 -lopencv-nonfree
 
 .PHONY: all
 all: $(EXEC)

@@ -1,0 +1,9 @@
+ cv::cvtColor(frame3, frame3, CV_BGR2GRAY);
+
+        cv::Mat cornerImage;
+        cornerImage = DetectCorners(frame, threshold);
+
+        frame2 = GoodFeatures(frame);
+
+        cv::imshow("Harris corners", cornerImage);
+        cv::imshow("Good Features", frame2);

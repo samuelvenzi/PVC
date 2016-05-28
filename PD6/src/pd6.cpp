@@ -88,3 +88,30 @@ cv::Mat getCorners(cv::Mat cornerMap, cv::Mat image){
     
     return image;
 }
+
+void CallBackFunc(int event, int x, int y, int flags, void* ptr){
+    if (event == cv::EVENT_LBUTTONDOWN){
+        std::vector<cv::Point>*p = (std::vector<cv::Point>*)ptr;
+        p->push_back(cv::Point(x,y));
+    }
+    
+}
+
+cv::Mat template_creator(cv::Mat img, int template_size, cv::Point pos){
+    cv::Mat templ(template_size, template_size, CV_8UC1);
+    uchar* pointer;
+    int x,y;
+
+    for (int i = 0; i < template_size; ++i)
+    {
+        pointer = templ.ptr<uchar>(i);
+        y = pos.y - (template_size/2) + i;
+        for (int j = 0; j < template_size; ++j)
+        {
+            x = pos.x - (template_size/2) + j;
+            pointer[j] = img.at<uchar>(cv::Point(x,y));
+        }
+    }
+
+    return templ;
+}

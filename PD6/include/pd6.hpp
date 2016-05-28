@@ -12,4 +12,5 @@ cv::Mat DetectCorners(cv::Mat image, double threshold);
 cv::Mat GoodFeatures(cv::Mat image);
 cv::Mat getCornerMap(cv::Mat cornerStrength, cv::Mat localMax, double threshold);
 cv::Mat getCorners(cv::Mat cornerMap, cv::Mat image);
-
+void CallBackFunc(int event, int x, int y, int flags, void* userdata);
+cv::Mat template_creator(cv::Mat img, int template_size, cv::Point pos);
