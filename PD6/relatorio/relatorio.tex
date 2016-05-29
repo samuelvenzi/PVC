@@ -1,0 +1,57 @@
+\documentclass[conference, harvard, brazil, english]{sbatex}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{ae}
+
+\bibliography{bibl}
+\begin{document}
+	\title{Projeto Demonstrativo 6 - Reconhecimento de Padrões}
+	\date{29-05-2016}
+	\author{Samuel Venzi Lima Monteiro de Oliveira\\14/0162241}{samuel.venzi@me.com}
+	\address{SQN 208\\Brasília\\Brasil}
+		\twocolumn[
+			\maketitle
+			\selectlanguage{brazil}
+		]
+	
+	\pagenumbering{arabic}
+	
+	\section{Objetivos}
+		\paragraph{}
+		Este experimento tem como objetivo realizar estudos de técnicas que permitam implementar algoritmos para análise do processo de reconhecimento de objetos.
+		
+	\section{Introdução}
+		\paragraph{}
+		O reconhecimento de padrões tem como objetivo a classificação de objetos dentro de um número de categoria ou classes. Para realizar uma classificação, portanto, é necessário o conhecimento das características do objeto de análise, que, por fim, requer que essas características sejam extraídas de alguma forma.
+		\paragraph{}
+		Pela obra de R. Laganière, algumas técnicas específicas são eficientes na extração de características de um objeto e seu posterior reconhecimento em outra imagem. Ainda segundo Laganière, o conceito de pontos de interesse ou pontos chave, em visão computacional, se utiliza da ideia que ao invés de olhar uma imagem por completo, pode ser vantajoso selecionar alguns pontos especiais na imagem e realizar uma análise local neles.
+		\paragraph{}
+		A primeira técnica a ser abordada é a detecção de \textit{Harris corners}. \textit{Corners}, ou esquinas, são uma interessante solução por serem fáceis de localizar em uma imagem e por serem abundantes em grande partes dos casos de reconhecimento. Além disso, são a junção de duas bordas. O OpenCV contém uma função para a detecção de \textit{Harris corners} e a partir dela é possível, com ceta facilidade, melhorar o algoritmo e apresentar uma imagem resultante com as coordenadas das esquinas.
+		\paragraph{}
+		Outra técnica é a \textit{SURF (Speeded Up Robust Features)}, que introduz a ideia de que cada ponto de interesse deve ter um fator de escala associado. Isso permite com que o objeto ainda seja reconhecido independente da sua escala. Assim como \textit{Harris corner}, o OpenCV cuida da detecção dos pontos chaves, com somente algumas linhas de código. E a partir desses pontos chaves é possível relacioná-los entre duas imagens diferentes e recuperar um resultado de um objeto detectado.
+	
+	
+	\section{Materiais e Metodologia}
+		\subsection{Materiais}
+			\begin{itemize}
+				\item Computador com ambiente Linux (Ubuntu Gnome)
+				\item OpenCV
+			\end{itemize}
+		\subsection{Metodologia}
+			\paragraph{}
+			
+			
+		\section{Resultados}
+			\paragraph{}
+			Os resultados estão nos arquivos em anexo, visto que a matriz é grande demais para ser apresentada neste relatório.
+		\section{Discussão e Conclusões}
+			\paragraph{}
+			Os resultados mostram-se coerentes, porém é inviável analisar cada elemento da matriz para ter certeza de que os cálculos foram feitos de forma correta.
+			
+		\bibliography{relatorio}
+
+
+\end{document}
