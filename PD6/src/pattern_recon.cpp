@@ -22,8 +22,7 @@ int main(int argc, char const *argv[])
     image2 = cv::imread(argv[1]);
     cv::cvtColor(image, image, CV_BGR2GRAY);
     cv::cvtColor(image2, image2, CV_BGR2GRAY);
-*/
-    
+*/ 
     cv::SurfFeatureDetector surf(2500.);
     std::vector<cv::KeyPoint> keypoints, temp_keypoints;
 
@@ -63,28 +62,45 @@ int main(int argc, char const *argv[])
         capture >> frame;
         cv::cvtColor(frame, frame, CV_BGR2GRAY);
         cv::flip(frame, flipped, 1);
-        
         cv::waitKey(10);
+        
+/*
+        cv::Mat cornerImage;
+        cornerImage = DetectCorners(flipped, threshold);
 
-        surf.detect(flipped,keypoints);
+        cv::imshow("Harris corners", cornerImage);
+        cv::imshow("SURF", frame2);
+*/
+
+        surf.detect(flipped, keypoints);
         surf.detect(temp, temp_keypoints);
 
-        extractor.compute(flipped, keypoints, descriptor);
         extractor.compute(temp, temp_keypoints, temp_descriptor);
+        extractor.compute(flipped, keypoints, descriptor);
 
         matcher.match(temp_descriptor, descriptor, matches);
 
-        //std::nth_element(matches.begin(), matches.begin() +1, matches.end());
-        //matches.erase(matches.begin()+2, matches.end());
+/*
+        cv::Mat img_matches;
+        cv::drawMatches(temp, temp_keypoints, flipped, keypoints, matches, img_matches);  
+*/
+        double maxdist = 0, mindist = 100;
+        for (int i = 0; i < temp_descriptor.rows; ++i)
+        {   double dist = matches[i].distance;
+            if(dist < mindist) mindist = dist;
+            if(dist > maxdist) maxdist = dist;
+        }
 
-        //cv::Mat img_matches;
-        //cv::drawMatches(temp, temp_keypoints, flipped, keypoints, matches, img_matches);  
+        std::vector<cv::DMatch> goodmatches;
+        for (int i = 0; i < temp_descriptor.rows; ++i)
+            if (matches[i].distance < 3*mindist)
+                goodmatches.push_back(matches[i]);
 
         std::vector<cv::Point> pts;
         
-        for (uint i = 0; i < matches.size(); ++i)
+        for (uint i = 0; i < goodmatches.size(); ++i)
         {
-            int idx2 = matches[i].trainIdx;
+            int idx2 = goodmatches[i].trainIdx;
             pts.push_back(keypoints[idx2].pt);
         }
 
@@ -98,12 +114,12 @@ int main(int argc, char const *argv[])
         y = y/pts.size();
 
         cv::Point pos, pos2;
-        pos.x = x - 100;
-        pos.y = y - 100;
-        pos2.x = x + 100;
-        pos2.y = y + 100;
+        pos.x = x - 75;
+        pos.y = y - 75;
+        pos2.x = x + 75;
+        pos2.y = y + 75;
         cv::rectangle(flipped, pos, pos2, cv::Scalar(255,255,255), 2);
-
+        
 
         cv::imshow("Match", flipped);
         if(cv::waitKey(30) >= 0) break;

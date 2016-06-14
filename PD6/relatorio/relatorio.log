@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.29)  29 MAY 2016 01:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.29)  29 MAY 2016 13:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,10 +540,7 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-)))
-\bibdata{bibl}
-No file relatorio.bbl.
-(./relatorio.aux)
+))) (./relatorio.aux)
 \openout1 = `relatorio.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -678,54 +675,101 @@ File: omsaer.fd 1999/12/27
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
-
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 48.
-
-
-
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 48.
-
-
-
-Underfull \hbox (badness 1675) in paragraph at lines 48--49
- [][] \T1/aer/m/n/10 Neste ex-per-i-mento foi feita a ex-tração da
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+ [][] \T1/aer/m/n/10 O OpenCV im-ple-menta a função
  []
 
-No file relatorio.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\T1/aett/m/n/10 cv::cornerHarris() \T1/aer/m/n/10 que re-cu-pera as es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+ [][] \T1/aer/m/n/10 Com o ob-jeto []\T1/aett/m/n/10 cv::SurfFeatureDetector
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 59--60
+[]\T1/aett/m/n/10 cv::SurfDescriptorExtractor\T1/aer/m/n/10 , re-alizar uma
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
- (./relatorio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+<images/harris-surf.png, id=64, 1282.7925pt x 515.9275pt>
+File: images/harris-surf.png Graphic file (type png)
+
+<use images/harris-surf.png>
+Package pdftex.def Info: images/harris-surf.png used on input line 65.
+(pdftex.def)             Requested size: 205.25099pt x 82.55008pt.
+
+<images/drawmatches.png, id=66, 845.1575pt x 521.95pt>
+File: images/drawmatches.png Graphic file (type png)
+
+<use images/drawmatches.png>
+Package pdftex.def Info: images/drawmatches.png used on input line 74.
+(pdftex.def)             Requested size: 211.28885pt x 130.48717pt.
+ <images/track.png, id=67, 644.4075pt x 521.95pt>
+File: images/track.png Graphic file (type png)
+
+<use images/track.png>
+Package pdftex.def Info: images/track.png used on input line 82.
+(pdftex.def)             Requested size: 193.32373pt x 156.5862pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./relatorio.bbl)
+Underfull \hbox (badness 3219) in paragraph at lines 97--98
+[]\T1/aer/m/it/10 Pattern Recog-ni-tion \T1/aer/m/n/10 Ser-gios Theodor-idis,
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 99--100
+[]\T1/aer/m/it/10 OpenCV 2 Com-puter Vi-sion Ap-pli-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+[]\T1/aer/m/it/10 OpenCV Doc-u-men-ta-tion []$\T1/aett/m/n/10 http : / / docs .
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+[2 <./images/harris-surf.png> <./images/drawmatches.png> <./images/track.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+
+(./relatorio.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `relatorio.out' has not changed.
 (rerunfilecheck)             Checksum: BC70BBACCDA27C7DD36A5D593646CD1C;379.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
  ) 
 Here is how much of TeX's memory you used:
- 7369 strings out of 495004
- 103791 string characters out of 6180662
- 200423 words of memory out of 5000000
- 10441 multiletter control sequences out of 15000+600000
- 18153 words of font info for 39 fonts, out of 8000000 for 9000
+ 7408 strings out of 495004
+ 104464 string characters out of 6180662
+ 201545 words of memory out of 5000000
+ 10455 multiletter control sequences out of 15000+600000
+ 15998 words of font info for 36 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 32i,5n,29p,614b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,6n,29p,614b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt10.pfb>
-Output written on relatorio.pdf (1 page, 109033 bytes).
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb>
+Output written on relatorio.pdf (2 pages, 918830 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

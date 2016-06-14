@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.6)  18 MAY 2016 19:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.29)  29 MAY 2016 01:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **relatorio.tex
 (./relatorio.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 3 languages loaded.
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 (./sbatex.cls
 Document Class: sbatex 2000/12/18 LaTeX2e class for Revista SBA - 1.0 alpha
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -44,19 +44,29 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2013/12/03 3.9h The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
-Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
+
+! Package babel Error: Unknown option `brazil'. Either you misspelled it
+(babel)                or the language definition file brazil.ldf was not found
+.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296 \ProcessOptions*
+                      
+Valid options are: shorthands=, KeepShorthandsActive,
+activeacute, activegrave, noconfigs, safe=, main=, math=
+headfoot=, strings=, config=, hyphenmap=, or a language name.
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count90
 \U@D=\dimen105
 )
-\l@brazil = a dialect from \language\l@portuges 
-Package babel Info: Making " an active character on input line 145.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
 \l@british = a dialect from \language\l@english 
 \l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
@@ -667,6 +677,18 @@ LaTeX Font Info:    Try loading font information for T1+aess on input line 17.
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )
+
+! Package babel Error: You haven't defined the language brazil yet.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 		]
+        
+Your command will be ignored, type <return> to proceed
+
+
 Underfull \hbox (badness 1005) in paragraph at lines 29--30
  [][] \T1/aer/m/n/10 Tex-tura é um padrão macroscópico que se
  []
@@ -723,12 +745,12 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 7377 strings out of 495004
- 103883 string characters out of 6180663
- 199496 words of memory out of 5000000
- 10445 multiletter control sequences out of 15000+600000
+ 7341 strings out of 495028
+ 103253 string characters out of 6181497
+ 198352 words of memory out of 5000000
+ 10403 multiletter control sequences out of 15000+600000
  18153 words of font info for 39 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  32i,5n,29p,614b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
